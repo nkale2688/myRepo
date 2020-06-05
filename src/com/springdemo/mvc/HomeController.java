@@ -8,5 +8,6 @@ public class HomeController {
 @RequestMapping("/")
 public String showPage() {
 	return "main-menu";
+	System.out.println("new change in remote");
 }
 }
